@@ -1,16 +1,5 @@
----
-title: 'Simple Notes System'
-shortTitle: 'Simple Notes'
-intro: 'Learn about the Simple Notes System, a lightweight notes management system built with FastAPI.'
-product: "FastAPI"
-type: overview
-topics:
-  - notes management
-  - FastAPI
-  - OAuth2
-versions:
-  - 1.0.0
----
+
+
 
 ## Introduction
 
@@ -38,11 +27,11 @@ some minor adjesments might need in .envs (refer core->config.py)
 
 1. Update environment variables in core/config.py and the Dockerfile.
 2. Build the Docker image:
-  ```bash
+
    docker build -t fastapi-app .
    docker run -p 8000:8000 fastapi-app
 
-### Running the Application
+## Running the Application
 Access the application at:
 👉 http://localhost:8000/
 
@@ -62,7 +51,7 @@ API documentation is available at:
     ├── .requirements    # Application dependencies
     ├── lambda_function.py
     ├── README.md
-
+```
 
 ## API Overview
 
